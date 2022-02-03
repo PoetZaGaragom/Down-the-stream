@@ -16,6 +16,7 @@ body {
 #wrapper {
     width: 960px;
     margin: 0px auto;
+    margin-bottom: 40px;
 }
 
 /* header */
@@ -140,4 +141,18 @@ img {
         line-height: 2em;
         
         padding: 20px 15px;
+    }
+
+/* Header */
+footer {
+    background-color: #D1E4A7;
+    text-align: center;
+    line-height: 80px;
+    
+    height: 80px;
+    margin-bottom: 20px;
+}
+    footer a {
+        color: #96AE3E;
+        text-decoration: none;
     }
