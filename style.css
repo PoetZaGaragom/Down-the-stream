@@ -22,6 +22,7 @@ body {
 header a {
     font-size: 44px;
     text-decoration: none;
+    font-weight: bold;
     color: white;
 
     float: left;
@@ -40,7 +41,7 @@ main {
     background-color: white;
     width: 960px;
 
-    padding: 20px;
+    padding: 15px;
     margin: 0px auto;
 }
 
@@ -71,7 +72,72 @@ nav {
         background-color: #1B3039;
     }
 
-    /* Images */
-    img {
-        width: 100%;
+/* Images */
+img {
+    width: 100%;
+}
+
+/* Left side */
+#left_side {
+    float: left;
+    width: 570px;
+    padding: 0px 20px;
+}
+    #left_side h3 a {
+        font-size: 3em;
+        color: #B17E4F;
+    }
+    .underH {
+        margin-bottom: 40px;
+    }
+    .underH a, #left_side a {
+        color: #96AE3E;
+        text-decoration: none;
+    }
+    #left_side p {
+        line-height: 2em;
+
+        margin-bottom: 40px;
+    }
+        
+/* Right side*/
+#right_side {
+    float: left;
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box {
+    border: 1px solid #E8E6DE;
+    background-color: #EFEDE5;
+
+    padding: 7px;
+    margin-bottom: 20px;
+}
+    .box h2 {
+        color: white;
+        background-color: #5D9EBD;
+        line-height: 2em;
+
+        padding-left: 15px;
+    }
+    .box ul {
+        list-style-type: none;
+
+        padding-top: 15px;
+    }
+    .box ul li {
+        border-bottom: 1px solid #E8E6DE;
+        line-height: 2.5em;
+
+        padding-left: 15px;
+    }
+    .box ul li a {
+        color: #96AE3E;
+        text-decoration: none;
+    }
+    .box p {
+        line-height: 2em;
+        
+        padding: 20px 15px;
     }
